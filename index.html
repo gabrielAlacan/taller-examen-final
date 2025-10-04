@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- corregido -->
+  <title>Librería Letras Mágicas</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="logo">📚 Letras <span>Mágicas</span></div>
+    <button class="hamburguesa" id="hamburguesa" aria-label="Abrir menú">&#9776;</button>
+    <ul id="menu" class="menu">
+      <li><a href="#inicio" class="nav-link">Inicio</a></li>
+      <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+      <li><a href="#servicios" class="nav-link">Servicios</a></li>
+      <li><a href="#productos" class="nav-link">Productos</a></li>
+      <li><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Encabezado (Inicio) -->
+  <header id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Bienvenido a <span>Librería Letras Mágicas</span></h1>
+      <p>Descubre el poder de los libros en un solo lugar</p>
+      <a href="#productos" class="btn">Explorar Libros</a>
+    </div>
+  </header>
+
+  <!-- Sección Nosotros -->
+  <section id="nosotros" class="seccion">
+    <h2>¿Quiénes Somos?</h2>
+    <p>
+      Somos una librería comprometida con la <strong>educación</strong>, la <strong>imaginación</strong> y la <strong>cultura</strong>. 
+      Nuestro objetivo es acercar los libros a cada persona, inspirando sueños y conocimientos a través de la lectura.
+    </p>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="seccion bg-light">
+    <h2>¿Qué ofrecemos?</h2>
+    <ul class="servicios">
+      <li>📘 Venta de libros nuevos y usados</li>
+      <li>📦 Envíos a domicilio</li>
+      <li>🎁 Envoltura de regalo</li>
+      <li>💬 Recomendaciones personalizadas</li>
+    </ul>
+  </section>
+
+  <!-- Sección Productos -->
+  <section id="productos" class="seccion">
+    <h2>Nuestros Libros</h2>
+    <p>Explora nuestra colección con las mejores ediciones, autores y géneros literarios.</p>
+    <input type="text" id="buscador" class="buscador" placeholder="Buscar libro por título...">
+    <div id="contenedor-libros" class="contenedor-libros">
+      <!-- Aquí se insertarán los libros dinámicamente con JavaScript -->
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="seccion bg-dark">
+    <h2>Contáctanos</h2> <br>
+    <div class="contacto-info">
+      <p>📧 <a href="mailto:letrasmagicas@ejemplo.com">letrasmagicas@ejemplo.com</a></p>
+      <p>📞 <a href="tel:+50212345678">+502 1234-5678</a></p>
+      <p>🏢 Ciudad de Guatemala, Zona 1</p>
+    </div>
+  </section>
+
+  <!-- Footer con datos del estudiante -->
+  <footer>
+    <p>Desarrollado por: <strong>Ederson Chicol <br> Miguel Tumín <br> Gabriel Alacán</strong></p>
+    <p>Curso: <strong>Taller</strong></p>
+    <p>© 2025 Librería Letras Mágicas | Todos los derechos reservados | A los estudiantes de la carrera de informática |</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
